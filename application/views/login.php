@@ -10,13 +10,19 @@
     } ?>
  
     <form action="<?= site_url('login') ?>" method="post">
+    <tr>
         <label for="username">Username</label>
         <input type="text" name="username" />
-        <br/>
+    <br/>
+    </tr>
+    <tr>
         <label for="password">Password</label>
         <input type="text" name="password" />
-        <br/>
+    </tr>
+    <br/>
+    <tr>
         <button type="submit">Login</button>
+    </tr>
     </form>
 </body>
 </html>
